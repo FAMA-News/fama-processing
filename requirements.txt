@@ -1,5 +1,0 @@
-# readability-lxml==0.8.1
-# feedparser==6.0.2
-# fama_models
-# git+git://github.com/path/to/fama-models@41b95ec#egg=package-two
-# git+git://github.com/path/to/package-two@master#egg=fama_models

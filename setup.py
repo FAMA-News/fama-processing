@@ -22,6 +22,14 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url=f"https://github.com/fama/{PACKAGE_NAME}",
     packages=setuptools.find_packages(),
+    dependency_links=[
+        "git+git://github.com/FAMA-News/fama-models@main"
+    ],
+    install_requires=[
+        "requests==2.25.1",
+        "readability-lxml==0.8.1",
+        "feedparser==6.0.2"
+    ],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console"
